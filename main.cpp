@@ -5,18 +5,17 @@ int main() {
 
     cin>>n;
 
-    for (i=1; i<=n; i++){
+    for (i=1; i<=100000; i++){
 
         if (successivo<=n){
-
             cout<<numero2<<endl;
             successivo=numero1+numero2;
             numero1=numero2;
             numero2=successivo;
+
         }
 
     }
-
 
 
         return 0;
