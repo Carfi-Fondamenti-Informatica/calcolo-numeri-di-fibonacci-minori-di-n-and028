@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n=0, m=0, i=0, numero1=0, numero2=1, successivo=0;
-    cin>>m;
+    int n=0, i=0, numero1=0, numero2=1, successivo=0;
+
     cin>>n;
 
-    for (i=1; i<=m; i++){
+    for (i=1; i<=n; i++){
 
         if (successivo<=n){
 
@@ -21,3 +21,4 @@ int main() {
 
         return 0;
 }
+
